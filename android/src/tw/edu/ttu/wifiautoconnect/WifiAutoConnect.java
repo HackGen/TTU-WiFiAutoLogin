@@ -1,12 +1,15 @@
 
 package tw.edu.ttu.wifiautoconnect;
 
+import tw.edu.ttu.network.NetworkStatus;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.SharedPreferences;
 
 public class WifiAutoConnect extends Activity {
@@ -18,6 +21,8 @@ public class WifiAutoConnect extends Activity {
     private EditText passwordEditText;
     private CheckBox showPasswordCheckBox;
 
+    private NetworkStatus networkStatus;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +32,10 @@ public class WifiAutoConnect extends Activity {
         passwordEditText = (EditText) findViewById(R.id.et_password);
         showPasswordCheckBox = (CheckBox) findViewById(R.id.cb_showpwd);
 
+        networkStatus = new NetworkStatus(this);
+
         restorePrefs();
+
     }
 
     public void showPasswordCheckBoxOnclick(View view) {
@@ -42,7 +50,6 @@ public class WifiAutoConnect extends Activity {
     }
 
     public void loginBthOnclick(View view) {
-
     }
 
     private void restorePrefs() {
@@ -60,6 +67,15 @@ public class WifiAutoConnect extends Activity {
                 .putString(PREF_USERNAME, usernameEditText.getText().toString())
                 .putString(PREF_PWD, passwordEditText.getText().toString())
                 .commit();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        if (networkStatus.getSSID().compareTo(getString(R.string.ssid)) != 0) {
+            Toast.makeText(this, getString(R.string.err_ssid_msg), Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override
