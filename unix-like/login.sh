@@ -1,4 +1,3 @@
-user=
-password=
+source ./config.sh
 
-curl -i -d "user=$user&password=$password&cmd=authenticate&Login=Log+In" http://securelogin.arubanetworks.com/cgi-bin/login
+curl -i -d "user=$user&password=$password&cmd=authenticate&Login=Log+In" $url
