@@ -14,9 +14,9 @@ public class WifiAutoConnect extends Activity {
     public static final String PREF_USERNAME = "USERNAME";
     public static final String PREF_PWD = "PASSWORD";
 
-    EditText usernameEditText;
-    EditText passwordEditText;
-    CheckBox showPasswordCheckBox;
+    private EditText usernameEditText;
+    private EditText passwordEditText;
+    private CheckBox showPasswordCheckBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
