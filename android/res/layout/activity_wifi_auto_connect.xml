@@ -16,10 +16,11 @@
 		android:text="@string/username" />
 
 	<EditText
-		android:id="@+id/editText1"
+		android:id="@+id/et_username"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:ems="10" android:inputType="text">
+		android:ems="10"
+		android:inputType="text" >
 
 		<requestFocus />
 	</EditText>
@@ -31,14 +32,14 @@
 		android:text="@string/password" />
 
 	<EditText
-		android:id="@+id/editText2"
+		android:id="@+id/et_password"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:ems="10"
 		android:inputType="textPassword" />
 
 	<CheckBox
-		android:id="@+id/checkBox1"
+		android:id="@+id/cb_showpwd"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="@string/show_password" />
