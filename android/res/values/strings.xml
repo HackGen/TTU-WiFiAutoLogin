@@ -2,7 +2,9 @@
 <resources>
 
 	<string name="app_name">WifiAutoConnect</string>
-	<string name="action_settings">Settings</string>
-	<string name="hello_world">Hello world!</string>
+	<string name="username">USERNAME</string>
+	<string name="password">PASSWORD</string>
+	<string name="show_password">Show password</string>
+	<string name="login">Log In</string>
 
 </resources>
