@@ -1,5 +1,5 @@
 
-package network;
+package tw.edu.ttu.network;
 
 import android.content.Context;
 import android.net.wifi.WifiInfo;
