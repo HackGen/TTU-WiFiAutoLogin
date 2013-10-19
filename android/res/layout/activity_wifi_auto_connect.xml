@@ -42,12 +42,14 @@
 		android:id="@+id/cb_showpwd"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+		android:onClick="showPasswordCheckBoxOnclick"
 		android:text="@string/show_password" />
 
 	<Button
 		android:id="@+id/button1"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+		android:onClick="loginBthOnclick"
 		android:text="@string/login" />
 
 </LinearLayout>
