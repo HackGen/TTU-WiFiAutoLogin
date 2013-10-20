@@ -20,6 +20,7 @@ public class NetworkStatus {
     public String getSSID() {
         update();
         String ssid = wifiInfo.getSSID();
+        if(ssid == null) return "";
 
         if (ssid.startsWith("\"") && ssid.endsWith("\"")) {
             ssid = ssid.substring(1, ssid.length() - 1);
