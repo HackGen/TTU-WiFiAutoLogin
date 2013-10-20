@@ -65,7 +65,7 @@ public class WifiAutoConnect extends Activity {
     public void loginBthOnclick(View view) {
         final ProgressDialog progressDialog;
 
-        progressDialog = ProgressDialog.show(this, "Title", "Message");
+        progressDialog = ProgressDialog.show(this, "Log In", "Please wait...");
 
         new Thread() {
             @Override
