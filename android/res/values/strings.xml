@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">WifiAutoConnect</string>
+	<string name="app_name">WifiAutoLogin</string>
 	<string name="username">USERNAME</string>
 	<string name="password">PASSWORD</string>
 	<string name="show_password">Show password</string>
