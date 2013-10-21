@@ -1,5 +1,5 @@
 
-package tw.edu.ttu.wifiautoconnect;
+package tw.edu.ttu.wifiautologin;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -25,7 +25,7 @@ import android.app.ProgressDialog;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 
-public class WifiAutoConnect extends Activity {
+public class WifiAutoLogin extends Activity {
     public static final String PREF = "ACCOUNT_PREF";
     public static final String PREF_USERNAME = "USERNAME";
     public static final String PREF_PWD = "PASSWORD";
@@ -39,7 +39,7 @@ public class WifiAutoConnect extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wifi_auto_connect);
+        setContentView(R.layout.activity_wifi_auto_login);
 
         usernameEditText = (EditText) findViewById(R.id.et_username);
         passwordEditText = (EditText) findViewById(R.id.et_password);
