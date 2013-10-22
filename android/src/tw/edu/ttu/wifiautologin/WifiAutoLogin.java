@@ -12,6 +12,8 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
+import com.google.analytics.tracking.android.EasyTracker;
+
 import tw.edu.ttu.network.NetworkStatus;
 import android.os.Bundle;
 import android.text.InputType;
@@ -141,6 +143,18 @@ public class WifiAutoLogin extends Activity {
         super.onPause();
 
         savePrefs();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        EasyTracker.getInstance(this).activityStart(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        EasyTracker.getInstance(this).activityStop(this);
     }
 
 }
