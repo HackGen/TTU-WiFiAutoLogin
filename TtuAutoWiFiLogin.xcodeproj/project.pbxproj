@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28ABAB38181CFB00003F5C75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABAB34181CFB00003F5C75 /* AppDelegate.m */; };
+		28ABAB39181CFB00003F5C75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABAB35181CFB00003F5C75 /* main.m */; };
+		28ABAB3A181CFB00003F5C75 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABAB36181CFB00003F5C75 /* MBProgressHUD.m */; };
+		28ABAB3B181CFB00003F5C75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28ABAB37181CFB00003F5C75 /* ViewController.m */; };
+		28ABAB41181CFB49003F5C75 /* rounded_table_cell_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB3C181CFB49003F5C75 /* rounded_table_cell_bottom.png */; };
+		28ABAB42181CFB49003F5C75 /* rounded_table_cell_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB3D181CFB49003F5C75 /* rounded_table_cell_bottom@2x.png */; };
+		28ABAB43181CFB49003F5C75 /* rounded_table_cell_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB3E181CFB49003F5C75 /* rounded_table_cell_top.png */; };
+		28ABAB44181CFB49003F5C75 /* rounded_table_cell_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB3F181CFB49003F5C75 /* rounded_table_cell_top@2x.png */; };
+		28ABAB45181CFB49003F5C75 /* rounded_table_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB40181CFB49003F5C75 /* rounded_table_cell.png */; };
+		28ABAB4B181CFB87003F5C75 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB48181CFB87003F5C75 /* MainStoryboard_iPhone.storyboard */; };
+		28ABAB4D181CFBA9003F5C75 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB4C181CFBA9003F5C75 /* Settings.bundle */; };
+		28ABAB51181CFBB7003F5C75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB4E181CFBB7003F5C75 /* Default-568h@2x.png */; };
+		28ABAB52181CFBB7003F5C75 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB4F181CFBB7003F5C75 /* Default.png */; };
+		28ABAB53181CFBB7003F5C75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB50181CFBB7003F5C75 /* Default@2x.png */; };
+		28ABAB56181CFBD8003F5C75 /* TtuAutoWiFiLogin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28ABAB55181CFBD8003F5C75 /* TtuAutoWiFiLogin-Info.plist */; };
+		28FD09AB16E4F2CD000CA245 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD09AA16E4F2CD000CA245 /* UIKit.framework */; };
+		28FD09AD16E4F2CD000CA245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD09AC16E4F2CD000CA245 /* Foundation.framework */; };
+		28FD09AF16E4F2CD000CA245 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD09AE16E4F2CD000CA245 /* CoreGraphics.framework */; };
+		28FD09F016E74C1F000CA245 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD09EF16E74C1F000CA245 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28ABAB30181CFB00003F5C75 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TtuAutoWiFiLogin/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		28ABAB31181CFB00003F5C75 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = TtuAutoWiFiLogin/MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		28ABAB32181CFB00003F5C75 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TtuAutoWiFiLogin/ViewController.h; sourceTree = SOURCE_ROOT; };
+		28ABAB33181CFB00003F5C75 /* TtuAutoWiFiLogin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TtuAutoWiFiLogin-Prefix.pch"; path = "TtuAutoWiFiLogin/TtuAutoWiFiLogin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		28ABAB34181CFB00003F5C75 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TtuAutoWiFiLogin/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		28ABAB35181CFB00003F5C75 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TtuAutoWiFiLogin/main.m; sourceTree = SOURCE_ROOT; };
+		28ABAB36181CFB00003F5C75 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = TtuAutoWiFiLogin/MBProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		28ABAB37181CFB00003F5C75 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TtuAutoWiFiLogin/ViewController.m; sourceTree = SOURCE_ROOT; };
+		28ABAB3C181CFB49003F5C75 /* rounded_table_cell_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rounded_table_cell_bottom.png; path = TtuAutoWiFiLogin/rounded_table_cell_bottom.png; sourceTree = SOURCE_ROOT; };
+		28ABAB3D181CFB49003F5C75 /* rounded_table_cell_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rounded_table_cell_bottom@2x.png"; path = "TtuAutoWiFiLogin/rounded_table_cell_bottom@2x.png"; sourceTree = SOURCE_ROOT; };
+		28ABAB3E181CFB49003F5C75 /* rounded_table_cell_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rounded_table_cell_top.png; path = TtuAutoWiFiLogin/rounded_table_cell_top.png; sourceTree = SOURCE_ROOT; };
+		28ABAB3F181CFB49003F5C75 /* rounded_table_cell_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rounded_table_cell_top@2x.png"; path = "TtuAutoWiFiLogin/rounded_table_cell_top@2x.png"; sourceTree = SOURCE_ROOT; };
+		28ABAB40181CFB49003F5C75 /* rounded_table_cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rounded_table_cell.png; path = TtuAutoWiFiLogin/rounded_table_cell.png; sourceTree = SOURCE_ROOT; };
+		28ABAB49181CFB87003F5C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = TtuAutoWiFiLogin/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		28ABAB4C181CFBA9003F5C75 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = TtuAutoWiFiLogin/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		28ABAB4E181CFBB7003F5C75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "TtuAutoWiFiLogin/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		28ABAB4F181CFBB7003F5C75 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = TtuAutoWiFiLogin/Default.png; sourceTree = SOURCE_ROOT; };
+		28ABAB50181CFBB7003F5C75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "TtuAutoWiFiLogin/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		28ABAB55181CFBD8003F5C75 /* TtuAutoWiFiLogin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TtuAutoWiFiLogin-Info.plist"; path = "TtuAutoWiFiLogin/TtuAutoWiFiLogin-Info.plist"; sourceTree = SOURCE_ROOT; };
+		28FD09A716E4F2CD000CA245 /* TtuAutoWiFiLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TtuAutoWiFiLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FD09AA16E4F2CD000CA245 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28FD09AC16E4F2CD000CA245 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28FD09AE16E4F2CD000CA245 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28FD09EF16E74C1F000CA245 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FD09A416E4F2CD000CA245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD09F016E74C1F000CA245 /* SystemConfiguration.framework in Frameworks */,
+				28FD09AB16E4F2CD000CA245 /* UIKit.framework in Frameworks */,
+				28FD09AD16E4F2CD000CA245 /* Foundation.framework in Frameworks */,
+				28FD09AF16E4F2CD000CA245 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FD099E16E4F2CD000CA245 = {
+			isa = PBXGroup;
+			children = (
+				28FD09EF16E74C1F000CA245 /* SystemConfiguration.framework */,
+				28FD09B016E4F2CD000CA245 /* TtuAutoWiFiLogin */,
+				28FD09A916E4F2CD000CA245 /* Frameworks */,
+				28FD09A816E4F2CD000CA245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FD09A816E4F2CD000CA245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FD09A716E4F2CD000CA245 /* TtuAutoWiFiLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FD09A916E4F2CD000CA245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FD09AA16E4F2CD000CA245 /* UIKit.framework */,
+				28FD09AC16E4F2CD000CA245 /* Foundation.framework */,
+				28FD09AE16E4F2CD000CA245 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28FD09B016E4F2CD000CA245 /* TtuAutoWiFiLogin */ = {
+			isa = PBXGroup;
+			children = (
+				28ABAB3C181CFB49003F5C75 /* rounded_table_cell_bottom.png */,
+				28ABAB3D181CFB49003F5C75 /* rounded_table_cell_bottom@2x.png */,
+				28ABAB3E181CFB49003F5C75 /* rounded_table_cell_top.png */,
+				28ABAB3F181CFB49003F5C75 /* rounded_table_cell_top@2x.png */,
+				28ABAB40181CFB49003F5C75 /* rounded_table_cell.png */,
+				28ABAB31181CFB00003F5C75 /* MBProgressHUD.h */,
+				28ABAB36181CFB00003F5C75 /* MBProgressHUD.m */,
+				28ABAB30181CFB00003F5C75 /* AppDelegate.h */,
+				28ABAB34181CFB00003F5C75 /* AppDelegate.m */,
+				28ABAB32181CFB00003F5C75 /* ViewController.h */,
+				28ABAB37181CFB00003F5C75 /* ViewController.m */,
+				28ABAB48181CFB87003F5C75 /* MainStoryboard_iPhone.storyboard */,
+				28FD09B116E4F2CD000CA245 /* Supporting Files */,
+				28ABAB4C181CFBA9003F5C75 /* Settings.bundle */,
+			);
+			name = TtuAutoWiFiLogin;
+			path = PccuAutoWiFiLogin;
+			sourceTree = "<group>";
+		};
+		28FD09B116E4F2CD000CA245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28ABAB35181CFB00003F5C75 /* main.m */,
+				28ABAB33181CFB00003F5C75 /* TtuAutoWiFiLogin-Prefix.pch */,
+				28ABAB55181CFBD8003F5C75 /* TtuAutoWiFiLogin-Info.plist */,
+				28ABAB4F181CFBB7003F5C75 /* Default.png */,
+				28ABAB50181CFBB7003F5C75 /* Default@2x.png */,
+				28ABAB4E181CFBB7003F5C75 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FD09A616E4F2CD000CA245 /* TtuAutoWiFiLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FD09CD16E4F2CD000CA245 /* Build configuration list for PBXNativeTarget "TtuAutoWiFiLogin" */;
+			buildPhases = (
+				28FD09A316E4F2CD000CA245 /* Sources */,
+				28FD09A416E4F2CD000CA245 /* Frameworks */,
+				28FD09A516E4F2CD000CA245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TtuAutoWiFiLogin;
+			productName = PccuAutoWiFiLogin;
+			productReference = 28FD09A716E4F2CD000CA245 /* TtuAutoWiFiLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FD099F16E4F2CD000CA245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = FrankWu;
+				TargetAttributes = {
+					28FD09A616E4F2CD000CA245 = {
+						DevelopmentTeam = ABNKH39563;
+					};
+				};
+			};
+			buildConfigurationList = 28FD09A216E4F2CD000CA245 /* Build configuration list for PBXProject "TtuAutoWiFiLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hant",
+			);
+			mainGroup = 28FD099E16E4F2CD000CA245;
+			productRefGroup = 28FD09A816E4F2CD000CA245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FD09A616E4F2CD000CA245 /* TtuAutoWiFiLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FD09A516E4F2CD000CA245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABAB45181CFB49003F5C75 /* rounded_table_cell.png in Resources */,
+				28ABAB42181CFB49003F5C75 /* rounded_table_cell_bottom@2x.png in Resources */,
+				28ABAB52181CFBB7003F5C75 /* Default.png in Resources */,
+				28ABAB41181CFB49003F5C75 /* rounded_table_cell_bottom.png in Resources */,
+				28ABAB4D181CFBA9003F5C75 /* Settings.bundle in Resources */,
+				28ABAB53181CFBB7003F5C75 /* Default@2x.png in Resources */,
+				28ABAB51181CFBB7003F5C75 /* Default-568h@2x.png in Resources */,
+				28ABAB44181CFB49003F5C75 /* rounded_table_cell_top@2x.png in Resources */,
+				28ABAB56181CFBD8003F5C75 /* TtuAutoWiFiLogin-Info.plist in Resources */,
+				28ABAB4B181CFB87003F5C75 /* MainStoryboard_iPhone.storyboard in Resources */,
+				28ABAB43181CFB49003F5C75 /* rounded_table_cell_top.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FD09A316E4F2CD000CA245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABAB3B181CFB00003F5C75 /* ViewController.m in Sources */,
+				28ABAB39181CFB00003F5C75 /* main.m in Sources */,
+				28ABAB38181CFB00003F5C75 /* AppDelegate.m in Sources */,
+				28ABAB3A181CFB00003F5C75 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28ABAB48181CFB87003F5C75 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28ABAB49181CFB87003F5C75 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FD09CB16E4F2CD000CA245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chinese Culture University";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "151D0F68-DBDE-4509-A9D5-3EAA9A8F0C54";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FD09CC16E4F2CD000CA245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chinese Culture University";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "151D0F68-DBDE-4509-A9D5-3EAA9A8F0C54";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FD09CE16E4F2CD000CA245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chinese Culture University";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TtuAutoWiFiLogin/TtuAutoWiFiLogin-Prefix.pch";
+				INFOPLIST_FILE = "TtuAutoWiFiLogin/TtuAutoWiFiLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = TtuAutoWiFiLogin;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28FD09CF16E4F2CD000CA245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chinese Culture University";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TtuAutoWiFiLogin/TtuAutoWiFiLogin-Prefix.pch";
+				INFOPLIST_FILE = "TtuAutoWiFiLogin/TtuAutoWiFiLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = TtuAutoWiFiLogin;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FD09A216E4F2CD000CA245 /* Build configuration list for PBXProject "TtuAutoWiFiLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FD09CB16E4F2CD000CA245 /* Debug */,
+				28FD09CC16E4F2CD000CA245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FD09CD16E4F2CD000CA245 /* Build configuration list for PBXNativeTarget "TtuAutoWiFiLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FD09CE16E4F2CD000CA245 /* Debug */,
+				28FD09CF16E4F2CD000CA245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FD099F16E4F2CD000CA245 /* Project object */;
+}
