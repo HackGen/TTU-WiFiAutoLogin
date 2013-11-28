@@ -86,7 +86,6 @@ public class WifiAutoLogin extends Activity {
                 List<BasicNameValuePair> parms = new LinkedList<BasicNameValuePair>();
 
                 for (int i = 0; i < params_name.length; i++) {
-                    Log.d("asd", params_name[i] + " " + params_value[i]);
                     parms.add(new BasicNameValuePair(params_name[i], params_value[i]));
                 }
 

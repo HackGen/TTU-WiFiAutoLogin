@@ -8,7 +8,7 @@
 	<string name="login">Log In</string>
 	<string name="ssid">ttuweb</string>
 	<string name="err_ssid_msg">You are not connected to ttuweb</string>
-	<string name="url">https://securelogin.arubanetworks.com/cgi-bin/login</string>
+	<string name="url">http://securelogin.arubanetworks.com/cgi-bin/login</string>
 
 	<string-array name="params_name">
 		<item>user</item>
